@@ -24,4 +24,15 @@ public class Circulo {
     public void setColor(String color) {
         this.color = color;
     }
+    public void setRadio(double radio){
+    this.radio = radio;
+    }
+    public Circulo(double radio, String color){
+    this.radio = radio;
+    this.color = color;
+    }
+    @Override
+    public String toString(){
+        return "Circulo [radio=" + radio + ", color=" + color + "]";
+    }
 }
